@@ -5,7 +5,7 @@ import os
 import pathlib
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Required for session management
+app.secret_key = 'htmlcode.html'  # Required for session management
 class Account :
     accNo = 0
     name = ''
@@ -220,4 +220,5 @@ while ch != 8:
     
     ch = input("Enter your choice : ")
     
+
 
